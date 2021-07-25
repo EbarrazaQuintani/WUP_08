@@ -34,3 +34,13 @@ predict(simp,new,se.fit=TRUE)
 ```
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
+I will look for a model that will allow me to model the length of a bear based on the chest of a bear.
+
+```{r}
+lchest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(lchest)
+summary.lm(lchest)
+```
+
+
