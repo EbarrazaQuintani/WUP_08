@@ -43,4 +43,6 @@ abline(lchest)
 summary.lm(lchest)
 ```
 
+This model is differet from the first model since the first model was comparing the length of bears neck. This one is for their length and chest. The simp model which was the first one had a adjusted R-squared of 0.7476 with and a residual standard error of 5.376. The second model which is called lchest had a adjusted R-squared at 0.7869 with a residual standard error at 4.939. The lchest model is the better model of the two since the residual standard error is smaller then the simp model.   
 
+  
